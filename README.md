@@ -75,8 +75,8 @@ var mnemonic = "era utility sight lab vocal oven sphere today click tape evolve 
 module.exports = {
     networks: {
         ganache: {  //ganacheを使いました。
-            host: "127.0.0.1",
-            port: 7545,
+            host: "127.0.0.1", //ganacheの該当hostを参照
+            port: 7545, //Localで動作するブロックチェーンを生成しているport
             network_id: 3
         },
         ropsten: {
